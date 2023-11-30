@@ -1,0 +1,62 @@
+[
+    {
+        "title" : "Email",
+        "sort_by" : "0"
+    },
+    {
+        "title" : "Phone Calls",
+        "sort_by" : "1"
+    },
+    {
+        "title" : "Meetings/Appointments",
+        "sort_by" : "2"
+    },
+    {
+        "title" : "Social Media Integration",
+        "sort_by" : "3"
+    },
+    {
+        "title" : "Live Chat",
+        "sort_by" : "4"
+    },
+    {
+        "title" : "SMS/Text Messaging",
+        "sort_by" : "5"
+    },
+    {
+        "title" : "Web Forms",
+        "sort_by" : "6"
+    },
+    {
+        "title" : "Surveys and Feedback Forms",
+        "sort_by" : "7"
+    },
+    {
+        "title" : "Fax Integration",
+        "sort_by" : "8"
+    },
+    {
+        "title" : "Task and Activity Tracking",
+        "sort_by" : "9"
+    },
+    {
+        "title" : "Document Management",
+        "sort_by" : "10"
+    },
+    {
+        "title" : "Customer Portals",
+        "sort_by" : "11"
+    },
+    {
+        "title" : "Video Conferencing",
+        "sort_by" : "12"
+    },
+    {
+        "title" : "Collaboration Tools",
+        "sort_by" : "13"
+    },
+    {
+        "title" : "Integration with Other Software",
+        "sort_by" : "14"
+    }
+]

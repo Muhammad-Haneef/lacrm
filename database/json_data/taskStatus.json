@@ -1,0 +1,14 @@
+[
+    {
+        "title":"Pending",
+        "sort_by":"0"
+    },
+    {
+        "title":"In Progress",
+        "sort_by":"1"
+    },
+    {
+        "title":"Completed",
+        "sort_by":"2"
+    }
+]

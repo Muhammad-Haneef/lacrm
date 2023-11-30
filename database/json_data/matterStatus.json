@@ -1,0 +1,18 @@
+[
+    {
+        "title":"Pending",
+        "sort_by":"0"
+    },
+    {
+        "title":"Open",
+        "sort_by":"1"
+    },
+    {
+        "title":"In Process",
+        "sort_by":"2"
+    },
+    {
+        "title":"Closed",
+        "sort_by":"3"
+    }
+]

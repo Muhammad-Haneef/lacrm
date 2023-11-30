@@ -1,0 +1,106 @@
+[
+    {
+        "title":"Intellectual Property",
+        "sort_by":"0"
+    },
+    {
+        "title":"Personal Injury",
+        "sort_by":"1"
+    },
+    {
+        "title":"In Litigation",
+        "sort_by":"2"
+    },
+    {
+        "title":"Under Investigation",
+        "sort_by":"3"
+    },
+    {
+        "title":"Legal Consultation",
+        "sort_by":"4"
+    },
+    {
+        "title":"Litigation",
+        "sort_by":"5"
+    },
+    {
+        "title":"Mediation",
+        "sort_by":"6"
+    },
+    {
+        "title":"Arbitration",
+        "sort_by":"7"
+    },
+    {
+        "title":"Legal Research",
+        "sort_by":"8"
+    },
+    {
+        "title":"Invoiced",
+        "sort_by":"9"
+    },
+    {
+        "title":"Retainer",
+        "sort_by":"10"
+    },
+    {
+        "title":"Family Disputes",
+        "sort_by":"11"
+    },
+    {
+        "title":"Federal",
+        "sort_by":"12"
+    },
+    {
+        "title":"State",
+        "sort_by":"13"
+    },
+    {
+        "title":"Appellate",
+        "sort_by":"14"
+    },
+    {
+        "title":"Court Documents",
+        "sort_by":"15"
+    },
+    {
+        "title":"Legal Memos",
+        "sort_by":"16"
+    },
+    {
+        "title":"Correspondence",
+        "sort_by":"17"
+    },
+    {
+        "title":"Court Appearances",
+        "sort_by":"18"
+    },
+    {
+        "title":"Legal Consultations",
+        "sort_by":"19"
+    },
+    {
+        "title":"Internal Use Only",
+        "sort_by":"20"
+    },
+    {
+        "title":"Confidential",
+        "sort_by":"21"
+    },
+    {
+        "title":"Marketing Campaign",
+        "sort_by":"22"
+    },
+    {
+        "title":"Legislation",
+        "sort_by":"23"
+    },
+    {
+        "title":"Legal Tech",
+        "sort_by":"24"
+    },
+    {
+        "title":"Policy Review",
+        "sort_by":"25"
+    }
+]

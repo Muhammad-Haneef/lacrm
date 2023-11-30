@@ -18,5 +18,36 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+
+        $this->call([
+            AreaOfLawSeeder::class,
+            ContactCategorySeeder::class,
+            ContactMethodSeeder::class,
+            DepartmentSeeder::class,
+            LeadSourceSeeder::class,
+            LeadStatusSeeder::class,
+            MatterStatusSeeder::class,
+            PrioritySeeder::class,
+            RoleSeeder::class,
+            TagSeeder::class,
+            TaskStatusSeeder::class,
+            TypeOfWorkSeeder::class,
+            PredefineSmsSeeder::class,
+            //PredefineEmailSeeder::class,
+            UserSeeder::class,
+            OrganizationSeeder::class,
+            CallSeeder::class,
+            CommentSeeder::class,
+            MeetingSeeder::class,
+            EventSeeder::class,
+            NoteSeeder::class,
+            NotificationSeeder::class,
+            ReminderSeeder::class,
+            MatterSeeder::class,
+            TaskSeeder::class,
+            SmsSeeder::class,
+        ]);
+
     }
 }

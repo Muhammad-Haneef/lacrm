@@ -1,0 +1,50 @@
+[
+    {
+        "title":"Individual",
+        "sort_by":"0"
+    },
+    {
+        "title":"Partners",
+        "sort_by":"0"
+    },
+    {
+        "title":"Associates",
+        "sort_by":"1"
+    },
+    {
+        "title":"Banks",
+        "sort_by":"2"
+    },
+    {
+        "title":"Public Relations",
+        "sort_by":"3"
+    },
+    {
+        "title":"Press Contacts",
+        "sort_by":"4"
+    },
+    {
+        "title":"Business Contacts",
+        "sort_by":"5"
+    },
+    {
+        "title":"Family Members",
+        "sort_by":"6"
+    },
+    {
+        "title":"Marketing Agencies",
+        "sort_by":"7"
+    },
+    {
+        "title":"Credit Unions",
+        "sort_by":"8"
+    },
+    {
+        "title":"Judges",
+        "sort_by":"9"
+    },
+    {
+        "title":"Legal Research Services",
+        "sort_by":"10"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Administration",
+        "sort_by":"0"
+    },
+    {
+        "title":"HR",
+        "sort_by":"1"
+    },
+    {
+        "title":"Sales & Marketing",
+        "sort_by":"2"
+    },
+    {
+        "title":"Recovery",
+        "sort_by":"3"
+    },
+    {
+        "title":"Office Staff",
+        "sort_by":"4"
+    },
+    {
+        "title":"Support",
+        "sort_by":"5"
+    },
+    {
+        "title":"Finanace",
+        "sort_by":"6"
+    }
+]

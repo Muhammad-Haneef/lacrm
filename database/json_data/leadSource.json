@@ -1,0 +1,26 @@
+[
+    {
+        "title":"Call",
+        "sort_by":"0"
+    },
+    {
+        "title":"Website",
+        "sort_by":"1"
+    },
+    {
+        "title":"Refferal",
+        "sort_by":"2"
+    },
+    {
+        "title":"Friends",
+        "sort_by":"3"
+    },
+    {
+        "title":"Social Media Circle",
+        "sort_by":"4"
+    },
+    {
+        "title":"Sales",
+        "sort_by":"5"
+    }
+]

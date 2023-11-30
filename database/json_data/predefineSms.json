@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Appointment Confirmation",
+        "description":"Hello [Client Name], this is [Law Firm Name]. Your appointment with [Lawyer Name] is confirmed for [Date] at [Time]. Please reply 'YES' to confirm or call if you need to reschedule. Thank you."
+    },
+    {
+        "title":"Case Update",
+        "description":"Dear [Client Name], this is [Law Firm Name]. We wanted to inform you that there is an update on your case. Please call our office at [Phone Number] at your earliest convenience for more details."
+    },
+    {
+        "title":"Payment Reminder",
+        "description":"This is a reminder from [Law Firm Name]. A payment of $[Amount] is due on [Due Date]. Please make the payment at your earliest convenience. Thank you."
+    },
+    {
+        "title":"Consultation Follow-Up",
+        "description":"Hello [Client Name], it was a pleasure meeting with you for the consultation. If you have any further questions or need additional information, please feel free to reach out. Thank you for choosing [Law Firm Name]."
+    },
+    {
+        "title":"Document Submission Request",
+        "description":"Dear [Client Name], this is [Law Firm Name]. We require additional documents for your case. Please submit the following documents at your earliest convenience: [List of Documents]. Thank you."
+    },
+    {
+        "title":"Court Appearance Reminder",
+        "description":"This is a reminder from [Law Firm Name]. Your court appearance is scheduled for [Date] at [Time] at [Court Name]. Please be prepared and arrive on time. If you have any questions, contact us at [Phone Number]. Thank you."
+    },
+    {
+        "title":"Feedback Request",
+        "description":"Hello [Client Name], we value your feedback. Please take a moment to share your thoughts on our services. Your input is important to us. Thank you for choosing [Law Firm Name]."
+    },
+    {
+        "title":"Holiday Greetings",
+        "description":"Season's greetings from [Law Firm Name]! Wishing you and your family a joyful holiday season. If you have any legal concerns in the new year, we're here to help."
+    },
+    {
+        "title":"Legal Tips/Advice",
+        "description":"Hi [Client Name], did you know? [Legal Tip/Advice]. If you have questions or need assistance, feel free to reach out to us at [Phone Number]. Thank you."
+    },
+    {
+        "title":"Emergency Contact Information",
+        "description":"In case of legal emergencies, please contact our 24/7 emergency line at [Emergency Phone Number]. Your urgent matters are important to us. Thank you."
+    }
+]

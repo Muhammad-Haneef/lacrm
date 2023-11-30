@@ -1,0 +1,98 @@
+[
+    {
+        "title":"New Lead",
+        "text_color":"#000000",
+        "bg_color":"#FAFAFA",
+        "sort_by":"0"
+    },
+    {
+        "title":"Contacted",
+        "text_color":"#B7EC76",
+        "bg_color":"#E9FFCE",
+        "sort_by":"1"
+    },
+    {
+        "title":"Qualification in Progress",
+        "text_color":"#88BB4B",
+        "bg_color":"#AFD383",
+        "sort_by":"2"
+    },
+    {
+        "title":"Qualified Lead",
+        "text_color":"#0EA80A",
+        "bg_color":"#81D47F",
+        "sort_by":"3"
+    },
+    {
+        "title":"Appointment Scheduled",
+        "text_color":"#4AD1B0",
+        "bg_color":"#BBFCEC",
+        "sort_by":"4"
+    },
+    {
+        "title":"Needs Analysis",
+        "text_color":"#E1A593",
+        "bg_color":"#FFE7E0",
+        "sort_by":"5"
+    },
+    {
+        "title":"Proposal Sent",
+        "text_color":"#58C7EC",
+        "bg_color":"#C7F1FF",
+        "sort_by":"6"
+    },
+    {
+        "title":"Negotiation/Review",
+        "text_color":"#1877D6",
+        "bg_color":"#DDECFB",
+        "sort_by":"7"
+    },
+    {
+        "title":"Contract Sent",
+        "text_color":"#CF61DD",
+        "bg_color":"#FCE4FF",
+        "sort_by":"8"
+    },
+    {
+        "title":"Closed - Won",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"9"
+    },
+    {
+        "title":"Closed - Lost",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"10"
+    },
+    {
+        "title":"On Hold",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"11"
+    },
+    {
+        "title":"Disqualified",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"12"
+    },
+    {
+        "title":"No Response",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"13"
+    },
+    {
+        "title":"Follow-Up Required",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"14"
+    },
+    {
+        "title":"Converted to Customer",
+        "text_color":"#000000",
+        "bg_color":"#ffffff",
+        "sort_by":"15"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "title":"General",
+        "sort_by":"0"
+    },
+    {
+        "title":"Contact",
+        "sort_by":"1"
+    },
+    {
+        "title":"Lead",
+        "sort_by":"2"
+    },
+    {
+        "title":"Account",
+        "sort_by":"3"
+    }
+]

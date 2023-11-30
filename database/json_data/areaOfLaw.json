@@ -1,0 +1,78 @@
+[
+    {
+        "title" : "Criminal law",
+        "sort_by" : "0"
+    },
+    {
+        "title" : "Labour law",
+        "sort_by" : "1"
+    },
+    {
+        "title" : "Immigration law",
+        "sort_by" : "2"
+    },
+    {
+        "title" : "Administrative law",
+        "sort_by" : "3"
+    },
+    {
+        "title" : "Constitutional law",
+        "sort_by" : "4"
+    },
+    {
+        "title" : "Family law",
+        "sort_by" : "5"
+    },
+    {
+        "title" : "Common law",
+        "sort_by" : "6"
+    },
+    {
+        "title" : "Admiralty law",
+        "sort_by" : "7"
+    },
+    {
+        "title" : "Environmental law",
+        "sort_by" : "8"
+    },
+    {
+        "title" : "International law",
+        "sort_by" : "9"
+    },
+    {
+        "title" : "Commercial law",
+        "sort_by" : "10"
+    },
+    {
+        "title" : "Public law",
+        "sort_by" : "11"
+    },
+    {
+        "title" : "Health law",
+        "sort_by" : "12"
+    },
+    {
+        "title" : "Corporate law",
+        "sort_by" : "13"
+    },
+    {
+        "title" : "Property law",
+        "sort_by" : "14"
+    },
+    {
+        "title" : "International human rights law",
+        "sort_by" : "15"
+    },
+    {
+        "title" : "Insurance law",
+        "sort_by" : "16"
+    },
+    {
+        "title" : "Consumer protection law",
+        "sort_by" : "17"
+    },
+    {
+        "title" : "Procedural law",
+        "sort_by" : "18"
+    }
+]
