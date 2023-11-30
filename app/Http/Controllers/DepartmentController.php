@@ -13,7 +13,10 @@ class DepartmentController extends Controller
      */
     public function index()
     {
-        //
+        $row=Department::first();
+        echo "<pre>";
+        //dd($row);
+        dd($row->roles);
     }
 
     /**

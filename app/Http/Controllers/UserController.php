@@ -13,7 +13,11 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $row=User::first();
+        echo "<pre>";
+        //dd($row);
+        //dd($row->role);
+        //dd($row->role->department);
     }
 
     /**

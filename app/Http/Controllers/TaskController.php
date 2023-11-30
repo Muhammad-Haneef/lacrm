@@ -13,7 +13,11 @@ class TaskController extends Controller
      */
     public function index()
     {
-        //
+        $row=Task::first();
+        echo "<pre>";
+        //dd($row);
+        //dd($row->task_status);
+        //dd($row->priority);
     }
 
     /**

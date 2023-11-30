@@ -13,7 +13,10 @@ class TaskStatusController extends Controller
      */
     public function index()
     {
-        //
+        $row=TaskStatus::first();
+        echo "<pre>";
+        //dd($row);
+        //dd($row->tasks);
     }
 
     /**

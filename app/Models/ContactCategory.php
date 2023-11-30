@@ -5,7 +5,18 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+use App\Models\Contact;
+
 class ContactCategory extends Model
 {
     use HasFactory;
+
+
+    function contacts():HasMany
+    {
+        return $this->hasMany(Contact::class);
+    }
+
 }

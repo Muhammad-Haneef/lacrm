@@ -13,7 +13,11 @@ class RoleController extends Controller
      */
     public function index()
     {
-        //
+        $row=Role::first();
+        echo "<pre>";
+        //dd($row);
+        //dd($row->department);
+        dd($row->users);
     }
 
     /**

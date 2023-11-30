@@ -5,11 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use Illuminate\Database\Eloquent\Relations\HasMany;
+
+use App\Models\Lead;
+
 class LeadStatus extends Model
 {
     use HasFactory;
 
-    function organization(){
-        return $this->belongsTo(Organization::class);
+    function leads():HasMany
+    {
+        return $this->hasMany(Lead::class);
     }
+
 }
