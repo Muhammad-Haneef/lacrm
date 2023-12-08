@@ -18,6 +18,10 @@ return new class extends Migration
             $table->dateTime('start_at');
             $table->dateTime('end_at');
             $table->string('location', 2500);
+
+            $table->integer('related_to_id');
+            $table->enum('related_to',['General','Leads','Contacts','Matters'])->default('General');
+
             $table->integer('add_by')->default(1);
             $table->timestamps();
         });

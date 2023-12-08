@@ -13,10 +13,9 @@ class TaskStatusController extends Controller
      */
     public function index()
     {
-        $row=TaskStatus::first();
-        echo "<pre>";
-        //dd($row);
-        //dd($row->tasks);
+        $data['heads']=['title'];
+        $data['data']=TaskStatus::all();
+        return view('settings.title-listing', ['data'=>$data]);
     }
 
     /**

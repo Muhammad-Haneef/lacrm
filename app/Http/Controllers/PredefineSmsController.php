@@ -13,7 +13,9 @@ class PredefineSmsController extends Controller
      */
     public function index()
     {
-        //
+        $data['heads']=['title', 'description'];
+        $data['data']=PredefineSms::all();
+        return view('settings.title-listing', ['data'=>$data]);
     }
 
     /**

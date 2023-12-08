@@ -24,7 +24,8 @@ class EventFactory extends Factory
             'start_at'=>fake()->dateTime(),
             'end_at'=>fake()->dateTime(),
             'location'=>fake()->address(),
-            
+            'related_to'=>fake()->randomElement(['General','Leads','Contacts','Matters']), 
+            'related_to_id'=>rand(1,300),
             'add_by'=>fake()->randomElement(User::query()->get('id'))
         ];
     }

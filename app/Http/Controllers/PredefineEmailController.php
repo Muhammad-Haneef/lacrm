@@ -13,7 +13,9 @@ class PredefineEmailController extends Controller
      */
     public function index()
     {
-        //
+        $data['heads']=['title', 'subject', 'matter'];
+        $data['data']=PredefineEmail::all();
+        return view('settings.title-listing', ['data'=>$data]);
     }
 
     /**

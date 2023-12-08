@@ -13,7 +13,9 @@ class MatterStatusController extends Controller
      */
     public function index()
     {
-        //
+        $data['heads']=['title'];
+        $data['data']=MatterStatus::all();
+        return view('settings.title-listing', ['data'=>$data]);
     }
 
     /**

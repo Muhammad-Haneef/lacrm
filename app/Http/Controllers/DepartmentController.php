@@ -13,10 +13,10 @@ class DepartmentController extends Controller
      */
     public function index()
     {
-        $row=Department::first();
-        echo "<pre>";
-        //dd($row);
-        dd($row->roles);
+        $data['heads']=['title'];
+        $data['data']=Department::all();
+
+        return view('settings.title-listing', ['data'=>$data]);
     }
 
     /**

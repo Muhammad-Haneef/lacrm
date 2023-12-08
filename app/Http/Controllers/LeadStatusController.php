@@ -13,7 +13,8 @@ class LeadStatusController extends Controller
      */
     public function index()
     {
-        //
+        $data=LeadStatus::all();
+        return view('settings.lead-status-listing', ['data'=>$data]);
     }
 
     /**
