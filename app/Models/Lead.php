@@ -18,27 +18,27 @@ class Lead extends Model
 {
     use HasFactory;
 
-    function organization():BelongsTo
+    public function organization():BelongsTo
     {
         return $this->belongsTo(Organization::class);
     }
 
-    function area_of_law():BelongsTo
+    public function area_of_law():BelongsTo
     {
         return $this->belongsTo(AreaOfLaw::class);
     }
 
-    function lead_source():BelongsTo
+    public function lead_source():BelongsTo
     {
         return $this->belongsTo(LeadSource::class);
     }
 
-    function lead_status():BelongsTo
+    public function lead_status():BelongsTo
     {
-        return $this->belongsTo(LeadStatus::class);
+        return $this->belongsTo(LeadStatus::class, 'lead_status_id', 'id');
     }
 
-    function matters():HasMany
+    public function matters():HasMany
     {
         return $this->hasMany(Matter::class);
     }

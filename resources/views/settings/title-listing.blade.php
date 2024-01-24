@@ -3,7 +3,7 @@
 
       <x-card>
         <x-slot name="body">
-          <x-setting-title-listing :dtData="$data" />
+          <x-setting-title-listing :rows="$rows" />
         </x-slot>
       </x-card>
 

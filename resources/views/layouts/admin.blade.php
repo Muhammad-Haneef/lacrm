@@ -30,9 +30,13 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/vendors/scrollbar.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/vendors/animate.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/vendors/datatables.css">
+
+    @yield('css')
+
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="/assets/css/vendors/bootstrap.css">
+
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
     <link id="color" rel="stylesheet" href="/assets/css/color-1.css" media="screen">
@@ -378,6 +382,11 @@
     <script src="/assets/js/slick/slick.min.js"></script>
     <script src="/assets/js/slick/slick.js"></script>
     <script src="/assets/js/header-slick.js"></script>
+
+    <script src="/assets/js/tooltip-init.js"></script>
+    <script src="/assets/js/tooltip-init.js"></script>
+    <script src="../assets/js/popover-custom.js"></script>
+
     <script src="/assets/js/chart/apex-chart/apex-chart.js"></script>
     <script src="/assets/js/chart/apex-chart/stock-prices.js"></script>
     <script src="/assets/js/counter/jquery.waypoints.min.js"></script>
@@ -386,14 +395,35 @@
     <script src="/assets/js/dashboard/dashboard_2.js"></script>
     <script src="/assets/js/animation/wow/wow.min.js"></script>
 
+    <script src="/assets/js/cleave/cleave.min.js"></script>
+    <script src="/assets/js/cleave/custom-cleave.js"></script>
+
     <script src="/assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
     <script src="/assets/js/datatable/datatables/datatable.custom.js"></script>
+
+
+
+    @yield('js')
 
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
     <script src="/assets/js/script.js"></script>
     <script src="/assets/js/theme-customizer/customizer.js"></script>
     <script>new WOW().init();</script>
+
+
+
+<script>
+  (function ($) {
+      $(".open-drawer").click(function () {
+        $(".drawer").addClass("open");
+      });
+      $(".close-drawer").on("click", function () {
+        $(".drawer").removeClass("open");
+      });
+  })(jQuery);
+</script>
+
 
   </body>
 </html>

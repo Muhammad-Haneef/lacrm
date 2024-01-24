@@ -14,7 +14,7 @@ class MatterStatus extends Model
     use HasFactory;
 
 
-    function matters():HasMany
+    public function matters():HasMany
     {
         return $this->hasMany(Matter::class);
     }

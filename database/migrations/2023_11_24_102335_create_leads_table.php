@@ -13,11 +13,12 @@ return new class extends Migration
     {
         Schema::create('leads', function (Blueprint $table) {
             $table->id();
-            $table->enum('lead_type',[0,1]); // 0 = lead and 1 = client
+            $table->integer('lead_type')->default(0); // 0 = lead and 1 = client
             $table->string('name');
             $table->string('email')->unique();
             $table->string('phone');
             $table->string('mobile');
+            $table->string('whatsapp');
             $table->string('adderss');
             $table->string('short_note', 2000);
             $table->string('tags');

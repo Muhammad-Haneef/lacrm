@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\AreaOfLawController;
 use App\Http\Controllers\DepartmentController;
+use App\Http\Controllers\RoleController;
 use App\Http\Controllers\LeadStatusController;
 use App\Http\Controllers\TaskStatusController;
 use App\Http\Controllers\PriorityController;
@@ -15,6 +16,14 @@ use App\Http\Controllers\TagController;
 use App\Http\Controllers\PredefineSmsController;
 use App\Http\Controllers\PredefineEmailController;
 
+
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LeadController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\MatterController;
+use App\Http\Controllers\TaskController;
+use App\Http\Controllers\SmsController;
+use App\Http\Controllers\CalendarController;
 use App\Http\Controllers\UserController;
 
 
@@ -57,36 +66,6 @@ Route::get('/reset-password/{key?}', function (string $key=null) {
 Route::redirect('/admin', '/admin/dashboard', 301);
 Route::prefix('/admin/')->group(function(){
 
-    Route::get('dashboard', function(){
-        return view('dashboard');
-    });
-
-    Route::get('leads', function(){
-        return view('leads');
-    });
-
-    Route::get('contacts', function(){
-        return view('contacts');
-    });
-
-    Route::get('matters', function(){
-        return view('matters');
-    });
-
-    Route::get('tasks', function(){
-        return view('tasks');
-    });
-
-    Route::get('calendar', function(){
-        return view('calendar');
-    });
-
-    Route::get('sms', function(){
-        return view('sms');
-    });
-
-
-
     Route::get('reports', function(){
         return view('reports');
     });
@@ -101,6 +80,23 @@ Route::prefix('/admin/')->group(function(){
 
 
 
+    Route::get('/departments', [DepartmentController::class, 'index'])->name('departments');
+    Route::get('/roles', [RoleController::class, 'index'])->name('roles');
+
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+// LEADS    
+    Route::get('leads', [LeadController::class, 'index'])->name('leads');
+    Route::get('leads/view/{id}', [LeadController::class, 'show'])->name('lead-view');
+
+// CONTACT    
+    Route::get('contacts', [ContactController::class, 'index'])->name('contacts');
+    Route::get('contacts/edit/{id}', [ContactController::class, 'edit'])->name('contact-edit');
+
+    Route::get('matters', [MatterController::class, 'index'])->name('matters');
+    Route::get('tasks', [TaskController::class, 'index'])->name('tasks');
+    Route::get('sms', [SmsController::class, 'index'])->name('sms');
+    Route::get('calendar', function(){ return view('calendar'); })->name('calendar');
     Route::get('case-workers', [UserController::class, 'index'])->name('case-workers');
 
 

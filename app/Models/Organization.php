@@ -14,12 +14,12 @@ class Organization extends Model
 {
     use HasFactory;
 
-    function contacts():HasMany
+    public function contacts():HasMany
     {
         return $this->hasMany(Contact::class);
     }
 
-    function leads():HasMany
+    public function leads():HasMany
     {
         return $this->hasMany(Lead::class);
     }

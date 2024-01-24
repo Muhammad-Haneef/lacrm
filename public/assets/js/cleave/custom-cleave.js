@@ -59,6 +59,14 @@
     uppercase: true,
   });
 
+  //Phone number
+  var cleave = new Cleave(".mobile", {
+    delimiters: ["(", ")", "-"],
+    blocks: [0, 3, 3, 4],
+    numericOnly: true,
+    uppercase: true,
+  });
+
   // Tailprefix
   new Cleave("#tailprefix", {
     numeral: true,

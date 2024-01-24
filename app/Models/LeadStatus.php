@@ -13,7 +13,7 @@ class LeadStatus extends Model
 {
     use HasFactory;
 
-    function leads():HasMany
+    public function leads():HasMany
     {
         return $this->hasMany(Lead::class);
     }

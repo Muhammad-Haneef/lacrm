@@ -14,7 +14,7 @@ class ContactMethod extends Model
     use HasFactory;
 
 
-    function contacts():HasMany
+    public function contacts():HasMany
     {
         return $this->hasMany(Contact::class);
     }

@@ -13,7 +13,7 @@ class Matter extends Model
 {
     use HasFactory;
 
-    function lead():BelongsTo
+    public function lead():BelongsTo
     {
         return $this->belongsTo(Lead::class);
     }

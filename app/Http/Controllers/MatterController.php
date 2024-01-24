@@ -13,7 +13,8 @@ class MatterController extends Controller
      */
     public function index()
     {
-        //
+        $rows = Matter::all();
+        return view('matters', ['rows'=>$rows]);
     }
 
     /**

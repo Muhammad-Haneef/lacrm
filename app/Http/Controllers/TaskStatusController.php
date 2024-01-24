@@ -13,9 +13,8 @@ class TaskStatusController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=TaskStatus::all();
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=TaskStatus::all();
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

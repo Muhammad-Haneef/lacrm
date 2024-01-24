@@ -13,8 +13,8 @@ class PriorityController extends Controller
      */
     public function index()
     {
-        $data=Priority::all();
-        return view('settings.priority-listing', ['data'=>$data]);
+        $rows=Priority::all();
+        return view('settings.priority-listing', ['rows'=>$rows]);
     }
 
     /**

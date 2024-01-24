@@ -13,9 +13,8 @@ class ContactCategoryController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=ContactCategory::all();
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=ContactCategory::all();
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

@@ -14,7 +14,7 @@ class TaskStatus extends Model
     use HasFactory;
 
 
-    function tasks():HasMany
+    public function tasks():HasMany
     {
         return $this->hasMany(Task::class);
     }

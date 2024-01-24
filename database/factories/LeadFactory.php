@@ -28,8 +28,10 @@ class LeadFactory extends Factory
             'email'=>fake()->unique()->safeEmail(),
             'phone'=>fake()->phoneNumber(),
             'mobile'=>fake()->phoneNumber(),
+            'whatsapp'=>fake()->phoneNumber(),
             'adderss'=>fake()->address(),
             'short_note'=>fake()->sentence(10),
+            'lead_type'=>rand(0,1),
             
             'tags'=>fake()->randomElement(Tag::query()->get('id')),
             'organization_id'=>fake()->randomElement(Organization::query()->get('id')),

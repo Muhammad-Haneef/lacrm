@@ -56,43 +56,43 @@
     {
         "title":"Closed - Won",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"9"
     },
     {
         "title":"Closed - Lost",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"10"
     },
     {
         "title":"On Hold",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"11"
     },
     {
         "title":"Disqualified",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"12"
     },
     {
         "title":"No Response",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"13"
     },
     {
         "title":"Follow-Up Required",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"14"
     },
     {
         "title":"Converted to Customer",
         "text_color":"#000000",
-        "bg_color":"#ffffff",
+        "bg_color":"#EFEFEF",
         "sort_by":"15"
     }
 ]

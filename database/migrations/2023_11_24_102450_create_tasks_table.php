@@ -21,6 +21,9 @@ return new class extends Migration
             //$table->foreignId('priority_id')->constrained();
             $table->integer('assigned_to');
 
+            $table->dateTime('due_date');
+            $table->dateTime('completion_date');
+
             $table->enum('related_to',['General','Leads','Contacts','Matters']);
             $table->integer('related_to_id');
             $table->integer('add_by')->default(1);

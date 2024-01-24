@@ -13,7 +13,8 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        $rows = Contact::all();
+        return view('contacts.list', ['rows'=>$rows]);
     }
 
     /**
@@ -43,9 +44,19 @@ class ContactController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Contact $contact)
+    public function edit(Contact $contact, string $id)
     {
-        //
+        $row = $contact::find($id);        
+        /* THE FOLLWOING ALL ARE OK
+            if(!isset($row->id))
+            if(is_null($row))
+            if(empty($row))
+        */        
+        if(!$row)
+        {
+           return redirect()->route('contacts');
+        }
+        return view('contacts.form', ['row'=>$row]);
     }
 
     /**

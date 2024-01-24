@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('description', 2500);
         
             $table->integer('related_to_id');
-            $table->enum('related_to',['General','Leads','Contacts','Matters'])->default('General');
+            $table->enum('related_to',['General','Leads','Contacts','Matters', 'Tasks'])->default('General');
         
             $table->integer('add_by')->default(1);
 

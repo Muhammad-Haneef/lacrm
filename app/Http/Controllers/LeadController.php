@@ -6,6 +6,9 @@ use App\Models\Lead;
 use App\Http\Requests\StoreLeadRequest;
 use App\Http\Requests\UpdateLeadRequest;
 
+
+use Illuminate\Support\Facades\DB;
+
 class LeadController extends Controller
 {
     /**
@@ -13,7 +16,8 @@ class LeadController extends Controller
      */
     public function index()
     {
-        //
+        $rows=Lead::paginate(10);
+        return view('leads', ['rows'=>$rows]);
     }
 
     /**

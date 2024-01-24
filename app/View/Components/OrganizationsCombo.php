@@ -6,15 +6,17 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class SettingTitleListing extends Component
+use App\Models\Organization;
+
+class OrganizationsCombo extends Component
 {
     /**
      * Create a new component instance.
      */
-    protected $rows;
-    public function __construct($rows=[])
+    private $selected;
+    public function __construct($selected=0)
     {
-        $this->rows = $rows;
+        $this->selected = $selected;
     }
 
     /**
@@ -22,6 +24,7 @@ class SettingTitleListing extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.setting-title-listing', ['rows'=>$this->rows]);
+        $data = Organization::all();
+        return view('components.organizations-combo', ['data'=>$data, 'selected'=>$this->selected]);
     }
 }

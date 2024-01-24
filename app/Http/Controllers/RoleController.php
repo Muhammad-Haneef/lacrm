@@ -17,7 +17,8 @@ class RoleController extends Controller
         echo "<pre>";
         //dd($row);
         //dd($row->department);
-        dd($row->users);
+        print_r($row->department);
+        //dd($row->department);
     }
 
     /**

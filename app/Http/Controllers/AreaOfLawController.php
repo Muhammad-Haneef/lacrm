@@ -13,9 +13,8 @@ class AreaOfLawController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=AreaOfLaw::all();
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=AreaOfLaw::all();
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

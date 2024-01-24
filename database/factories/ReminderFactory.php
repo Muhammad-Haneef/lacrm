@@ -22,7 +22,7 @@ class ReminderFactory extends Factory
         return [
             'reminding_date'=>fake()->dateTime(),
             'description'=>fake()->paragraph(),
-            'related_to'=>fake()->randomElement(['General','Leads','Contacts','Matters']), 
+            'related_to'=>fake()->randomElement(['General','Leads','Contacts','Matters', 'Tasks']), 
             'related_to_id'=>rand(1,300),
 
             'add_by'=>fake()->randomElement(User::query()->get('id'))

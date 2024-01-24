@@ -7,9 +7,11 @@
     @endisset
     
     <div class="card-body">
-        @isset($body)
+        @if (@isset($body))
             {{$body}}    
-        @endisset
+        @else
+            {{$slot}}
+        @endif
     </div>
 
     @isset($footer)

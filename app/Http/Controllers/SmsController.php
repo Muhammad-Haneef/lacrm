@@ -13,7 +13,8 @@ class SmsController extends Controller
      */
     public function index()
     {
-        //
+        $rows=Sms::all();
+        return view('sms', ['rows'=>$rows]);
     }
 
     /**

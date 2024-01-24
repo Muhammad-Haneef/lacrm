@@ -13,9 +13,8 @@ class TagController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=Tag::all();
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=Tag::all();
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

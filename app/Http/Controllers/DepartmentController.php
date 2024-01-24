@@ -13,10 +13,11 @@ class DepartmentController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=Department::all();
-
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=Department::all();
+        foreach($rows as $row){
+            dd($row->roles);
+        }
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

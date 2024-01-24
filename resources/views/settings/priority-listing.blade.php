@@ -16,8 +16,8 @@
                 </tr>
               </thead>
               <tbody>
-                @if($data)
-                  @foreach ($data as $row)          
+                @if($rows)
+                  @foreach ($rows as $row)          
                     <tr>
                       <td class="text-center">
                           {{$loop->iteration}}

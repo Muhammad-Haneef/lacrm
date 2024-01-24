@@ -3,27 +3,19 @@
     <thead>
       <tr>
         <th class="col-1 text-center">#</th>
-        
-        @isset($data['heads'])
-          @foreach ($data['heads'] as $head)
-            <th>{{$head}}</th>
-          @endforeach
-        @endisset
-
+        <th>Title</th>
         <th class="col-1">Sort Order</th>
         <th class="col-1">Action</th>
       </tr>
     </thead>
     <tbody>
-      @if($data['data'])
-        @foreach ($data['data'] as $row)          
+      @if($rows)
+        @foreach ($rows as $row)          
           <tr>
             <td class="text-center">
                 {{$loop->iteration}}
             </td>
-            @foreach ($data['heads'] as $head)
-              <td>{{$row->$head}}</td>  
-            @endforeach            
+            <td>{{$row->title}}</td>  
             <td class="text-center">
                 {{$row->sort_by}}
             </td>

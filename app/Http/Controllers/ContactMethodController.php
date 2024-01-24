@@ -13,9 +13,8 @@ class ContactMethodController extends Controller
      */
     public function index()
     {
-        $data['heads']=['title'];
-        $data['data']=ContactMethod::all();
-        return view('settings.title-listing', ['data'=>$data]);
+        $rows=ContactMethod::all();
+        return view('settings.title-listing', ['rows'=>$rows]);
     }
 
     /**

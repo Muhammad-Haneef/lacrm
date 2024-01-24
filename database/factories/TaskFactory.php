@@ -19,11 +19,13 @@ class TaskFactory extends Factory
     public function definition(): array
     {
         return [
-            'title'=>fake()->sentence(10),
-            'description'=>fake()->text(20),
+            'title'=>fake()->text(40),
+            'description'=>fake()->sentence(20),
             'assigned_to'=>rand(1,3),
             'task_status_id'=>rand(1,3),
             'priority_id'=>rand(1,3),
+            'due_date'=>fake()->dateTime(),
+            'completion_date'=>fake()->dateTime(),
             'related_to'=>fake()->randomElement(['General','Leads','Contacts','Matters']), 
             'related_to_id'=>rand(1,300),
 

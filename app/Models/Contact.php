@@ -15,16 +15,16 @@ class Contact extends Model
 {
     use HasFactory;
 
-    function organization(){
+    public function organization(){
         return $this->belongsTo(Organization::class);
     }
 
-    function contact_method():BelongsTo
+    public function contact_method():BelongsTo
     {
         return $this->belongsTo(ContactMethod::class);
     }
 
-    function contact_category():BelongsTo
+    public function contact_category():BelongsTo
     {
         return $this->belongsTo(ContactCategory::class);
     }
